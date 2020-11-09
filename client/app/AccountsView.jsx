@@ -37,8 +37,8 @@ const AccountsView = () => {
             </div>
 
             <Select style={{ width: '75%' }} onChange={onSelectAccount} size='large'>
-                {map(accounts, account => (
-                    <Option value={account.account_id}>
+                {map(accounts, (account) => (
+                    <Option key={account.account_id}value={account.account_id}>
                         {account.name}
                     </Option>
                 ))}
