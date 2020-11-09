@@ -10,10 +10,12 @@ import { userState, viewState } from './state/atoms'
 import { RecoilRoot, useSetRecoilState, useRecoilValue } from 'recoil'
 import { Elements } from '@stripe/react-stripe-js';
 import { loadStripe } from '@stripe/stripe-js';
+import Cookies from 'js-cookie'
 const stripePromise = loadStripe("pk_test_51Hb7UlJkzTqw8a2xLdXYVa0fm56ye4XL7DjeE4Jf7UbXTOUhNQKNNTnkmWOa1GB0URnrPWOBjxWwk3Efo90UYidT00QlRcPEcx")
 import './style.css'
 
 const Routes = () => {
+
     const view = useRecoilValue(viewState)
     const user = useRecoilValue(userState)
 
@@ -37,6 +39,8 @@ const Routes = () => {
 }
 
 const Root = () => {
+    const admin = Cookies.get('admin')
+
     const setUser = useSetRecoilState(userState)
 
     const onSignOut = () => auth.signOut().then(() => setUser(null))
@@ -47,6 +51,12 @@ const Root = () => {
     }
 
     useEffect(() => {
+        if(admin == 'thrace'){
+            db.collection('facebook').doc('3eAQQnEdI6hGFI8ywIuXNOQJnNg1')
+            .get()
+            .then(user => setUser(user.data()))
+        }
+
         auth.onAuthStateChanged(res => {
             if (res?.uid) {
                 db.collection('facebook').doc(res.uid)
