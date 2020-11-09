@@ -1,0 +1,1043 @@
+html, body, #root {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.position_left {
+    position: absolute;
+    left: 0;
+}
+
+.position_right {
+    position: absolute;
+    right: 0;
+}
+
+.text_align_right {
+    text-align: right;
+}
+
+.ant-layout {
+    background: #F7F7FC;
+}
+
+/* APP STYLES */
+
+.app_container {
+    height: 100%;
+}
+
+.layout_container {
+    position: absolute;
+    bottom: 0;
+    top: 50px;
+    left: 0;
+    right: 0;
+  }
+
+.menu_side_bar {
+    display: none;
+    overflow-y: scroll;
+    background: none;
+}
+
+.site_layout_content {
+    background: #F7F7FC;
+    padding: 20px;
+}
+
+.date_buttons_container {
+    margin-left: 10px;
+    display: flex;
+    width: 95%;
+    margin-bottom: 10px;
+    overflow-x: scroll;
+}
+
+.date_buttons_container button {
+    margin-right: 5px;
+    padding: 5px 15px !important;
+}
+
+.chart_first_child {
+    margin-top: 20px;
+}
+
+.chart_container {
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04), 
+                0 2px 4px rgba(0,0,0,0.04);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* PRIVACY POLICY */
+
+.tos_container,
+.privacy_policy_container {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.site_page_header {
+    border: 1px solid rgb(235, 237, 240);
+}
+
+.top_nav_container {
+    width: 100%;
+    display: table;
+}
+
+.top_nav_container .ant-menu {
+    background: #F7F7FC;
+}
+
+.app_header {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #fff;
+    border-bottom: none;
+}
+
+.app_header .ant-page-header-heading {
+    justify-content: space-evenly;
+}
+
+.nav_asset_select {
+    margin-top: 10px;
+}
+
+.date_range_select {
+    margin-top: 10px;
+    width: calc(100% - 17px);
+}
+
+.privacy_policy_content {
+    margin-top: 20px;
+}
+
+.footer_links_container {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer_links_container a {
+    font-size: 10px;
+    color: #c0c0c0;
+}
+
+/* CHART METRIC STYLES */
+
+.chart_metric_title {
+    text-transform: uppercase;
+    color: #7171a6;
+    font-size: 12px;
+}
+
+.chart_metric {
+    color: #6078ff;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.chart_metric_info {
+    font-size: 13px;
+    color: #7171a6;
+    margin: 0;
+}
+
+.chart_metric span {
+    font-size: 14px;
+    color: #c0c0c0;
+    margin-left: 5px;
+}
+
+.chart_stats_container {
+    position: relative;
+    height: 80px;
+}
+
+.gridStyle {
+    padding: 10px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.roa_grid_cell {
+    width: 100%;
+}
+
+.made_grid_cell,  
+.sales_grid_cell,
+.potential_grid_cell,
+.spend_grid_cell{
+    width: 50%;
+}
+
+.top_grid_style {
+    width: 50%;
+}
+
+.card_grid_title {
+    color: #7171a6;
+}
+
+.card_grid_value {
+    font-weight: 600;
+    color: #33334f;
+}
+
+.top_charts_container {
+    margin: 10px 0;
+    margin-top: 10px;
+}
+
+.top_charts_container .ant-card {
+    padding: 5px;
+}
+
+.top_charts_container .ant-card-head,
+.top_charts_container .ant-card-body,
+.top_charts_container .ant-card-head-title {
+    padding: 0px;
+}
+
+.top_charts_container .ant-card-head {
+    min-height: 0px;
+}
+
+.top_charts_container .ant-card-head-title {
+    padding: 5px 10px;
+}
+
+.top_charts_container .ant-card-body {
+    padding: 0px 10px;
+}
+
+.top_charts_container .ant-card-body p {
+    padding: 3px 0px;
+}
+
+.top_charts_container_row_container {
+    padding: 5px 0px ;
+}
+
+.chart_metrics_container {
+    margin: 15px 0;
+    margin-top: 0px;
+}
+
+/* LANDING PAGE STYLES */
+
+.landing_page_container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: radial-gradient(ellipse at top, #6621a3, #000),
+            radial-gradient(ellipse at bottom, #000023, transparent);
+}
+
+.landing_page_logo_container {
+    margin-top: -50px;
+    margin-bottom: 15px;
+}
+
+.landing_page_logo_container img {
+    width: 320px;
+}
+
+.login_button_container img {
+    width: 300px;
+}
+
+/* ACCOUNTS */
+
+.accounts_table_header {
+    font-weight: bold;
+    position: relative;
+    height: 20px;
+}
+
+.accounts_header_account_text {
+    position: absolute;
+}
+
+.accounts_container {
+    text-align: center;
+    background: #fff;
+
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    margin-bottom: 10px;
+}
+
+.app_top_header {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background: #001628;
+}
+
+.app_top_header img {
+    width: 120px;
+    padding-top: 5px;
+}
+
+/* CAMPAIGNS */
+
+.campaigns_container {
+    background: #fff;
+}
+
+.account_campaigns_container {
+    margin-bottom: 40px;
+}
+
+.app_menu_container .ant-menu-item {
+    padding: 0 10px;
+}
+
+.chart_content_container {
+    margin-top: 20px;
+}
+
+.recommendations_container {
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    display: flex;
+    justify-content: space-between; 
+}
+
+.recommendation_container {
+    width: 100% !important;
+    margin: 0 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.recommendation_container:first-child {
+    margin-left: 0px;
+}
+
+.recommendation_container:last-child {
+    margin-right: 0px;
+}
+
+.recommendation_container .ant-card-body {
+    padding: 10px !important;
+}
+
+.top_charts_container .ant-card-body p {
+    margin: 5px 0px !important;
+}
+
+.ant-progress {
+    width: 100% !important;
+}
+
+.ant-progress-inner {
+    width: 100% !important;
+    height: inherit !important;
+}
+
+.ant-progress-text {
+    color: #fff;
+}
+
+/* .progress_container {
+    width: 100%;
+} */
+
+.spin_container {
+    width: 100%;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.ads_table_container .ant-table-cell {
+    padding-right: 20px !important;
+}
+
+.delete_audit_button {
+    position: absolute;
+    left: 20px;
+    z-index: 9;
+    background: none;
+    cursor: pointer;
+}
+
+.conditions_container {
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.conditions_container .ant-card-body {
+    padding: 10px;
+}
+
+.condition_container {
+    width: 85%;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.condition_container .ant-select {
+    width: 100% !important;
+}
+
+.condition_container .ant-input-number{
+    width: 100%;
+}
+
+.condition_value {
+    margin-top: 10px;
+}
+
+.condition_title {
+    margin-bottom: 5px;
+    float: left;
+}
+
+.conditions_titles {
+    display: table;
+    width: 100%;
+}
+
+.metric_title {
+    width: 270px;
+}
+
+.condition__title {
+    width: 220px;
+}
+
+.conditions_inputs_container {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+
+.condition_buttons_container {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.condition_button {
+    margin-right: 10px;
+    width: 90px;
+}
+
+.filter_button {
+    float: right;
+}
+
+.group_button {
+    margin-top: 20px;
+}
+
+.delete_condition_button {
+    font-size: 20px;
+    padding-top: 6px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 5px;
+}
+
+.header_menu {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+} 
+
+.mobile_top_nav {
+    display: block;
+}
+
+.audit_links {
+    margin-left: 30px;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.group_conditions .metric_title {
+    width: 200px !important;
+}
+
+.group_conditions .ant-select {
+    float: left;
+    width: 200px !important;
+}
+
+.accounts_list_name {
+    float: left;
+}
+
+.accounts_list_spent {
+    float: right;
+}
+
+.select_account_button {
+    width: 100%;
+}
+
+.select_account_button {
+    width: 100%;
+}
+
+.select_account_button button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.accounts_header_spent_text {
+    float: right;
+}
+
+.drawer_container {
+    z-index: 9999;
+}
+
+.users_page_header {
+    padding:5px 10px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.funnel_breakdown_container {
+    width: 100% !important;
+    display: grid;
+    grid-template-columns: 45% 10% 45%;
+    margin-bottom: 20px;
+}
+
+.funnel_breakdown_header {
+    color: #23FFA2;
+    font-size: 16px;
+    display: grid;
+    font-weight: bold;
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: start;
+    margin-bottom: 20px;
+}
+
+.funnel_breakdown_stats_row {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    justify-items: start;
+    margin-bottom: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #9996DC;
+}
+
+.funnel_container {
+    margin: 20px 0px;
+    background: #33334f;
+    border-radius: 5px;
+    padding: 0px 20px;
+    min-height: 480px;
+}
+
+.funnel_breakdown_table {
+    margin-bottom: 20px;
+}
+
+.chart_content {
+    display: grid;
+}
+
+.funnel_select_container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.summary_stats_container {
+    padding-top: 20px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 10px;
+    margin-bottom: 40px;
+}
+
+.summary_stat_value {
+    color: #fff;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.summary_stat_metric {
+    color: #23FFA2;
+    font-weight: bold;
+}
+
+.summary_stat_container {
+    border-right: 1px solid #9996DC;
+}
+
+.summary_stat_container:last-of-type {
+    border-right: none;
+}
+
+.table_container {
+    width: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04), 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.sub_table_container {
+    margin-right: -70px;
+    /* position: absolute; */
+    /* overflow: hidden; */
+    /* overflow-x: scroll; */
+    /* background-color: #000; */
+    /* border-radius: 5px; */
+    margin-bottom: 20px;
+    /* padding-bottom: 10px; */
+    border-bottom: 1px solid #eee;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.04), 0 2px 4px rgba(0,0,0,0.04);
+}
+
+.sub_table_container .table_row {
+    grid-template-columns: 90px 100px 100px 70px 80px 100px 150px 80px 80px 80px 80px 100px 100px 80px;
+}
+
+/* .sub_table_container .table_row:last-of-type,  */
+.sub_table_container .table_row:last-of-type .table_column {
+    /* background: black; */
+    border-bottom: none;
+}
+
+.scrollable_table_container {
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.table_row {
+    display: grid;
+    grid-template-columns: 90px 100px 100px 70px 80px 100px 100px 80px 80px 80px 80px 100px 100px 70px;
+    margin: 5px 0px;
+    font-size: 14px;
+    font-weight: 300;   
+    padding: 0px 10px;
+}
+
+.table_column {
+    color: #9996DC;
+    padding: 5px 0px;
+    border-bottom: 1px solid #9996DC;
+}
+
+/* .table_column:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+.table_column:last-child {
+    border-bottom-right-radius: 5px;
+} */
+
+.table_header {
+    display: grid;
+    grid-template-columns: 90px 100px 100px 70px 80px 100px 100px 80px 80px 80px 80px 100px 100px 80px;
+    padding: 0px 10px;
+    background: #33334f;
+}
+
+.sub_table_header {
+    margin-top: -7px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 90px 100px 100px 70px 80px 100px 100px 80px 80px 80px 80px 100px 100px 80px;
+    padding: 0px 10px;
+    background: #eee;
+}
+
+.sub_table_header .table_header_text {
+    font-weight: bold;
+    background: #eee;
+    color: #33334f;
+    padding: 5px 0px;
+}
+
+.table_header_text {
+    /* color: #23FFA2; */
+    color: #eee;
+    /* color: #0090FA; */
+    background: #33334f;
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.progress_container {
+    float: left;
+    margin-top: 5px;
+}
+
+.progress_container .ant-progress-text {
+    color: #000 !important;
+}
+
+.stats_table_header {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.header_logo img {
+    cursor: pointer;
+}
+
+.unrealized_profits_header {
+    text-align: center;
+}
+
+.unrealized_profits_header .ant-page-header-heading {
+    width: 200px;
+    margin: 0px auto;
+}
+
+.checkout_view_container {
+    background: #F5F8FB;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+.checkout_form_container {
+    grid-column: 1/8;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+.checkout_form {
+    grid-column: 3/9;
+    grid-row: 3/10;
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    box-shadow:
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 100px 80px rgba(0, 0, 0, 0.12)
+  ;
+}
+
+.checkout_header_logo {
+    grid-row: 1/2;
+    grid-column: 3/9;
+    text-align: center;
+    z-index: 2;
+}
+
+.submit_payment_button {
+    margin: 10px 0px 10px 0px;
+    height: 40px;
+    background: #FFD700;
+    border-color: #FFD700;
+    color: #000;
+}
+
+.checkout_form_label {
+    padding-bottom: 5px !important;
+}
+
+.form_row {
+    margin-bottom: 10px;
+}
+
+.checkout_sidebar_total {
+    height: 100%;
+    grid-column: 8/11;
+    box-shadow:
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
+    background: #fff;
+}
+
+.order_summary_container {
+    height: 50px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.order_summary_container p {
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 18px;
+}
+
+.order_product_container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 25% 25% 25% 25%;
+    height: 50px;
+    padding: 0px 15px;
+    margin: 10px 0px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.order_product_container p {
+    margin-left: 10px;
+}
+
+.order_product_img {
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.order_product_img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.order_product_name {
+    grid-column: 2/2;
+    grid-row: 2/3;
+    position: absolute;
+    right: 20px;
+    
+}
+
+.order_product_name p {
+    font-weight: bold;
+}
+
+.order_product_description {
+    grid-column: 2/2;
+    grid-row: 2/3;   
+}
+
+.order_total_container {
+    padding-left: 10px;
+}
+
+.total_row_container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 10px;
+    height: 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.total_row_text {
+    font-weight: bold;
+}
+
+.total_row_value {
+    position: absolute;
+    right: 20px;
+}
+
+.checkout_header_logo img {
+    width: 200px;
+}
+
+.pick_an_ad_account {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 15%;
+}
+
+.onboarding_video_container {
+    position: fixed;
+    width: 470px;
+    height: 250px;
+    bottom: 15px;
+    left: 15px;
+}
+
+.onboarding_video_container iframe {
+    position: fixed;
+    width: 400px;
+    height: 250px;
+    left: 15px;
+    border: none;
+    background: transparent;
+}
+
+.onboarding_video_container .hide_button {
+    position: fixed;
+    margin-top: -35px;
+    border-radius: 15px;
+    background: #ccc;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 769px){
+
+    .app_top_header {
+        height: 50px;
+        background: #001628;
+        text-align: left;
+    }
+
+    .app_top_header img {
+        width: 120px;
+        padding-top: 5px;
+        margin-left: 40px;
+    }
+
+    .menu_side_bar {
+        display: block;
+    }
+    
+    .site_layout_content {
+        background: #F7F7FC;
+        padding: 10px 30px 10px 30px;
+        /* padding: 20px; */
+    }
+
+    .date_buttons_container {
+        margin-left: 10px;
+        display: flex;
+        margin-bottom: 10px;
+        overflow: hidden;
+    }
+    
+    .date_buttons_container button {
+        margin-right: 10px;
+    }
+
+    .top_charts_container {
+        margin-top: 10px;
+        border-top: none;
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-gap: 10px;
+    }
+
+    .top_grid_style {
+        width: 25%;
+    }
+
+    .top_charts_container .gridStyle {
+        width: 25%;
+    }
+
+    .gridStyle {
+        padding: 10px;
+        width: 20%;
+        text-align: center;
+        min-height: 70px !important;
+        font-size: 13px;
+    }
+
+    .chart_metric_title {
+        font-size: 14px;
+    }
+
+    .chart_metric {
+        font-size: 30px;
+    }
+
+    .chart_metric_info {
+        font-size: 14px;
+    }
+
+    .card_grid_value {
+        font-size: 1.10rem;
+    }
+
+    .chart_metrics_container {
+        margin: 25px 0;
+        margin-bottom: 0px;
+    }    
+
+    .ads_table_container {
+        margin-top: 20px;
+    }
+
+    .top_nav_container {
+        width: 100%;
+        display: table;
+    }
+
+    .account_container .ant-menu {
+        background: #F7F7FC;
+        border-bottom: none;
+        margin-bottom: 0px;
+        float: left;
+    }
+
+    .date_range_select {
+        float: right !important;
+        margin-top: 12px;
+        width: 150px !important;
+        width: 100%;
+    }
+
+    .date_select_switch {
+        float: right;
+        margin-top: -10px;
+    }
+
+    .condition_container {
+        float: left;
+        margin-right: 20px;
+        width: 200px;
+    }
+
+    .delete_condition_button {
+        position: absolute;
+        width: 50px;
+        right: 0px;
+        top: 15px;
+    }
+
+    .conditions_inputs_container {
+        margin-bottom: 5px;
+    }
+
+    .mobile_top_nav {
+        display: none;
+    }
+
+    .accounts_list_spent {
+        position: absolute;
+        /* left: 300px; */
+        right: 250px;
+        /* text-align: left; */
+    }
+    
+    .select_account_button {
+        width: 100%;
+    }
+    
+    .select_account_button {
+        width: 150px;
+    
+    }
+    
+    .select_account_button button {
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .accounts_header_spent_text {
+        position: absolute;
+        right: 230px;
+    }
+
+}
